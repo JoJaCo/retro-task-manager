@@ -1,0 +1,9 @@
+{
+  "name": "retro-task-manager",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  }
+}
